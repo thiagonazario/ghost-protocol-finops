@@ -8,6 +8,7 @@ This roadmap outlines the evolution of the Ghost Protocol, leveraging AWS credit
 - [ ] **Day 3 (Wed): Sovereign UI** - Private Web Interface (Open WebUI) deployment within the VPC.
 - [ ] **Day 4 (Thu): Multi-Model Registry** - Automated model switching scripts for RAM/VRAM optimization.
 - [ ] **Day 5 (Fri): Disaster Recovery** - Multi-region global deployment strategy (DRP).
+- [ ] **Day 6 (Sat): Sovereign GitOps** - Deploying a local Gitea instance (Containerized) to ensure CI/CD continuity even if GitHub is down.
 
 ---
 *Status: Day 1 in progress. Following Hardened-by-Design™ methodology.*
