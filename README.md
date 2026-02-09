@@ -40,16 +40,18 @@ aws.autoscaling.Schedule("stop-weekend",
     max_size=0, 
     desired_capacity=0,
     ...)
-
+```
 
  📖 How to Deploy
 Install Dependencies:
 
-Bash
+Bash```
 pip install pulumi pulumi_aws
+```
 Deploy with Pulumi:
 
-Bash
+Bash```
 pulumi up
+```
 ⚖️ License
 This project is part of my Sovereign Infrastructure Portfolio and is intended for educational and architectural auditing purposes.
