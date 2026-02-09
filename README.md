@@ -1,5 +1,13 @@
 # Ghost Protocol: FinOps-First AI Infrastructure 🛡️💰
 
+![Architecture Diagram](./docs/diagram-dark.png)
+
+## 📄 Architectural Audit
+
+A comprehensive technical audit of this infrastructure is available. It covers the **Hardened-by-Design** methodology, **Zero-Trust** networking, and **FinOps** cost engineering in detail.
+
+👉 **[Download the Architectural Audit Report (PDF)](./docs/Architectural-Audit-Ghost-Protocol-Nazario.pdf)**
+
 This repository contains a **Hardened-by-Design** infrastructure implementation using **Pulumi (Python)**. It is focused on hosting private AI inference engines (like Ollama) with a "Zero-Spend" and "Zero-Trust" philosophy.
 
 ## 🏛️ Architecture Overview
