@@ -47,10 +47,9 @@ Install Dependencies:
 
 Bash```
 pip install pulumi pulumi_aws
-```
+
 Deploy with Pulumi:
 
-Bash```
 pulumi up
 ```
 ⚖️ License
