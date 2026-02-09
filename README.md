@@ -42,15 +42,29 @@ aws.autoscaling.Schedule("stop-weekend",
     ...)
 ```
 
- 📖 How to Deploy
-Install Dependencies:
+## 📖 How to Deploy
 
-Bash```
-pip install pulumi pulumi_aws
+To maintain environment isolation and security (Hardened-by-Design), follow these steps:
 
-Deploy with Pulumi:
+1. **Clone and Enter the Directory:**
+   ```bash
+   git clone [https://github.com/thiagonazario/ghost-protocol-finops.git](https://github.com/thiagonazario/ghost-protocol-finops.git)
+   cd ghost-protocol-finops
 
-pulumi up
-```
-⚖️ License
-This project is part of my Sovereign Infrastructure Portfolio and is intended for educational and architectural auditing purposes.
+2. **Setup Virtual Environment & Dependencies:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+
+3. **Deploy with Pulumi:**
+    ```bash
+    pulumi stack init dev
+    pulumi up
+
+4. **Tear Down (FinOps Control):**
+    ```bash
+    pulumi destroy
+
+⚖️ License & Intellectual Property
+This project is part of my Sovereign Infrastructure Portfolio. All rights reserved. The architectural patterns (Hardened-by-Design) and FinOps strategies are intended for educational and architectural auditing purposes.
